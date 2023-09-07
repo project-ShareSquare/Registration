@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container mt-4">
+   
+    <!-- Section: Design Block -->
+<section class="background-radial-gradient overflow-hidden">
+    <<style>
+      .background-radial-gradient {
+        background-image: url('data:image/jpeg;base64,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'); /* Replace with the URL of your image */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    </style>
+    
+  
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+          <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+            Welcome to <br />
+            <span style="color: hsl(218, 81%, 75%)">ShareSquare</span>
+          </h1>
+          <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
+            Elevate Your Tech Journey: Share, Learn, and Innovate Together!
+          </p>
+        </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+              <form action="/login" method="POST">
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  
+                  <% if (messages.error) { %>
+                    <div class="alert alert-danger">
+                      <strong><%= messages.error %> </strong>
+                    </div>
+                  <% } %> 
+
+                   
+
+                  <h1 class="mb-3 h3">Login</h1>
+                  
+                </div>
+  
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" name="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Email address</label>
+                </div>
+  
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" name="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Password</label>
+                </div>
+  
+  
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Sign In
+                </button>
+  
+                <!-- Register buttons -->
+                <div class="text-center">
+                  <p>Don't have an account yet? <a href="/register">Register</a></p>
+                
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
